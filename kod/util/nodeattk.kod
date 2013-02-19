@@ -166,6 +166,10 @@ messages:
       % This is the number of days to wait for an attack, start small.
       piWaitTime = 2;
 
+	  % Number of minutes the whole attack lasts.
+      %  Divided into 1/3 time that node holders know, 2/3 time everyone knows.
+      piAttackDuration = 60
+	  
       if ptAttack <> $
       {
          DeleteTimer(ptAttack);
@@ -221,12 +225,12 @@ messages:
          return;
       }
 
-      % Check the wait time, see if we're up for attacking the node again!
+      % Check the wait time, see if we're up for attacking a node again!
       piWaitTime = piWaitTime - 1;
-      if piWaitTime <= 0 AND poAttackedNode = $
+      if piWaitTime <= 0 AND poAttackedNode = $ AND ptAttack = $
       {
-         % Generate a wait between a minute and 4 hours
-         ptAttack = CreateTimer(self,@StartAttackTimer,Random(60,14400)*1000);
+         % Generate a wait between one and thirty minutes
+         ptAttack = CreateTimer(self,@StartAttackTimer,Random(60,1800)*1000);
          piWaitTime = piAttackFrequency;
       }
 
@@ -255,8 +259,8 @@ messages:
       ptAttack = $;
       if NOT Send(self,@DoNodeAttack)
       {
-         % Between 1 and 2 hours
-         ptAttack = CreateTimer(self,@StartAttackTimer,Random(3600,7200)*1000);
+         % Between 90 and 120 minutes
+         ptAttack = CreateTimer(self,@StartAttackTimer,Random(5400,7200)*1000);
       }
 
       return;
