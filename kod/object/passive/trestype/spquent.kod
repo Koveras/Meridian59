@@ -36,9 +36,9 @@ messages:
                      [ &Emerald,  10 ],
                      [ &Sapphire, 8 ],
                      [ &Diamond,  7 ],
-                     [ &BlueDragonScale, 6],
+                     [ &BlueDragonScale, 6 ],
                      [ &Ruby, 4 ],
-                     [ &DarkAngelFeather, 4]
+                     [ &DarkAngelFeather, 4 ]
                    ];
 
       propagate;

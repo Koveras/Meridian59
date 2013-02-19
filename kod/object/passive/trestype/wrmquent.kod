@@ -26,26 +26,23 @@ messages:
    constructed()
    {
       % metal armor/weapons that could be eaten and underground stones.
-      plTreasure = [ [ &BlueMushroom, 13],
-                     [ &Diamond, 10],
-                     [ &Emerald, 10],
-                     [ &Hammer, 10],
-                     [ &ChainArmor, 5],
-                     [ &Sapphire, 5],
-                     [ &Ruby, 5],
-                     [ &InkyCap, 5],
-                     [ &Money, 5],
-                     [ &Axe, 4],
-                     [ &SimpleHelm, 4],
-                     [ &Longsword, 4],
-                     [ &GoldShield, 4],
-                     [ &MetalShield, 4],
-                     [ &Gauntlet, 3],
-                     [ &PurpleMushroom, 3],
-                     [ &ScaleArmor, 2],
-                     [ &UncutSeraphym, 2],
-                     [ &BerserkerRing, 1],
-                     [ &PlateArmor, 1] ];
+      plTreasure = [ [ 0, 36 ],
+                     [ &BlueMushroom, 13 ],
+                     [ &Diamond, 10 ],
+                     [ &Emerald, 10 ],
+                     [ &Sapphire, 5 ],
+                     [ &Ruby, 5 ],
+                     [ &InkyCap, 5 ],
+                     [ &Money, 5 ],
+                     [ &PurpleMushroom, 3 ],
+                     [ &UncutSeraphym, 2 ],
+                     [ &Hammer, 1 ],
+                     [ &SimpleHelm, 1 ],
+                     [ &GoldShield, 1 ],
+                     [ &Gauntlet, 1 ],
+                     [ &BerserkerRing, 1 ],
+                     [ &PlateArmor, 1 ] 
+                   ];
 
       propagate;
    }

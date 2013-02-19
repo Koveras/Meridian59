@@ -4966,9 +4966,10 @@ messages:
                {
                   tokengen = FALSE;
                }
-
-               lTreasureItems = cons(oTreasure, lTreasureItems);
-            
+               if oTreasure <> 0
+               {
+                  lTreasureItems = cons(oTreasure, lTreasureItems);
+               }
                i = i + 1;
             }
          }

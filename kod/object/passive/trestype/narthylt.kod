@@ -28,19 +28,15 @@ messages:
    
    constructed()
    {
-      plTreasure = [ [ &BlueDragonScale, 15 ],
+      plTreasure = [ [ 0, 48 ],
+                     [ &BlueDragonScale, 15 ],
                      [ &DarkAngelFeather, 15 ],
-                     [ &NightVisionPotion, 10 ],
-                     [ &KaraholsCursePotion, 10 ],
-                     [ &CloakPotion, 10 ],
                      [ &FireRing, 5 ],
                      [ &ColdRing, 5 ],
                      [ &ShockRing, 5 ],
-                     [ &BerserkerRing, 5 ],
-                     [ &ResistShockPotion, 5 ],
-                     [ &FeignDeathPotion, 5 ],
-                     [ &ResistMagicPotion, 5 ],
-                     [ &BaitPotion, 5 ]
+                     [ &AcidRing, 5 ],
+                     [ &BerserkerRing, 1 ],
+                     [ &NightVisionPotion, 1 ]
                    ];
 
       propagate;

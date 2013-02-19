@@ -31,8 +31,9 @@ messages:
                      [ &Elderberry, 15 ],
                      [ &RedMushroom, 10 ],
                      [ &BlueMushroom, 8 ],
-                     [ &Emerald, 5],
-                     [ &Sapphire, 5] ];
+                     [ &Emerald, 5 ],
+                     [ &Sapphire, 5 ] 
+                   ];
 
       propagate;
    }

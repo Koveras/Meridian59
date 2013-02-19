@@ -32,20 +32,20 @@ messages:
    constructed()
    {
       plTreasure = [ [ &MysticSword, 10 ],
-                     [ &RingInvisibility, 10],
+                     [ &RingInvisibility, 10 ],
                      [ &Gauntlet, 10 ],
                      [ &PlateArmor, 10 ],
                      [ &KnightShield, 10 ],
                      [ &FineLute, 9 ],
-                     [ &Scimitar, 7],                     
-                     [ &VampireWand, 7],
-                     [ &DiscipleRobe, 5],
-                     [ &Diamond, 5],
-                     [ &Ruby, 5],
+                     [ &Scimitar, 7 ],                     
+                     [ &VampireWand, 7 ],
+                     [ &DiscipleRobe, 5 ],
+                     [ &Diamond, 5 ],
+                     [ &Ruby, 5 ],
                      [ &LightningWand, 5 ],
-                     [ &FireWand, 4],
-                     [ &HoldWand, 2],
-                     [ &TruceScroll, 1]
+                     [ &FireWand, 4 ],
+                     [ &HoldWand, 2 ],
+                     [ &TruceScroll, 1 ]
                    ];
 
       propagate;

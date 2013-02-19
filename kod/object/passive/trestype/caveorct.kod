@@ -27,29 +27,26 @@ messages:
    
    constructed()
    {
-      plTreasure = [ [ &OrcTooth, 30 ],
-                     [ &OreChunk, 10 ],
-                     [ &Scimitar, 8 ],
-                     [ &GoldShield, 5 ],
-                     [ &SimpleHelm, 5 ],
+      plTreasure = [ [ 0, 36 ],
+                     [ &OrcTooth, 30 ],
                      [ &Emerald, 3 ],
                      [ &Sapphire, 3 ],
                      [ &Diamond, 3 ],
                      [ &Ruby, 3 ],
-                     [ &NeruditeOreChunk, 3 ],
-                     [ &FireRing, 3 ],
-                     [ &ColdRing, 3 ],
-                     [ &ShockRing, 3 ],
+                     [ &FireRing, 2 ],
+                     [ &ColdRing, 2 ],
+                     [ &ShockRing, 2 ],
                      [ &AcidRing, 2 ],
+                     [ &OreChunk, 2 ],
                      [ &Money, 2 ],
                      [ &UncutSeraphym, 2 ],
-                     [ &CurePoisonPotion, 2 ],
-                     [ &CureDiseasePotion, 2 ],
                      [ &RemoveCursePotion, 2 ],
-                     [ &PurifyPotion, 2 ],
-                     [ &RingofLethargy, 2 ],
+                     [ &RingofLethargy, 1 ],
                      [ &KnightShield, 1 ],
-                     [ &FlashScroll, 1 ]
+                     [ &SimpleHelm, 1 ],
+                     [ &FlashScroll, 1 ],
+                     [ &Scimitar, 1 ],
+                     [ &NeruditeOreChunk, 1 ]
                    ];
 
       propagate;

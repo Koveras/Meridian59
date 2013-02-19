@@ -34,7 +34,8 @@ messages:
                      [ &Snack, 15 ],
                      [ &OrcTooth, 10 ],
                      [ &Mace, 7 ],
-                     [ &Herbs, 3 ] ];
+                     [ &Herbs, 3 ] 
+                   ];
 
       propagate;
    }

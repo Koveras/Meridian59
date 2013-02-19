@@ -29,12 +29,13 @@ messages:
    {
       plTreasure = [ [ &DragonflyEye, 30 ],
                      [ &WebMoss, 20 ],
-                     [ &Meatpie, 20 ],
+                     [ 0, 18],
                      [ &RainbowFern, 15 ],
                      [ &Money, 7 ],
                      [ &KriipaClaw, 7 ],
+                     [ &Meatpie, 2 ],
                      [ &Yrxlsap, 1 ]
-		             ];
+                   ];
 
       propagate;
    }

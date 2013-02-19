@@ -26,12 +26,13 @@ messages:
    constructed()
    {
       plTreasure = [ [ &Herbs, 30 ],
-                     [ &Mushroom, 20],
+                     [ &Mushroom, 20 ],
                      [ &Elderberry, 15 ],
-                     [ &Snack, 15],
-                     [ &Money, 10],
-                     [ &BlueMushroom, 5],
-                     [ &RedMushroom, 5 ] ];
+                     [ &Snack, 15 ],
+                     [ &Money, 10 ],
+                     [ &BlueMushroom, 5 ],
+                     [ &RedMushroom, 5 ] 
+                   ];
 
       propagate;
    }

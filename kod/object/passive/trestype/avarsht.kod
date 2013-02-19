@@ -28,16 +28,13 @@ messages:
    constructed()
    {
       plTreasure = [ [ &ShamanBlood, 40 ],
-                     [ &Yrxlsap, 13],
+                     [ &Yrxlsap, 13 ],
+                     [ 0, 12 ],
                      [ &WebMoss, 10 ],
                      [ &RainbowFern, 9 ],
-                     [ &KriipaClaw, 6],
-                     [ &CurePoisonPotion, 4],
-                     [ &CureDiseasePotion, 4],
-                     [ &RemoveCursePotion, 4],
-                     [ &PurifyPotion, 4],
-                     [ &UncutSeraphym, 3],
-                     [ &PolishedSeraphym, 3]
+                     [ &KriipaClaw, 6 ],
+                     [ &UncutSeraphym, 3 ],
+                     [ &PolishedSeraphym, 3 ]
                    ];
 
       propagate;

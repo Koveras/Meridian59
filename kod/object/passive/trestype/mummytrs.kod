@@ -33,15 +33,16 @@ messages:
                      [ &RedMushroom, 10 ],
                      [ &BlueMushroom, 10 ],
                      [ &Mushroom, 10 ],
-                     [ &Herbs, 10],
+                     [ &Herbs, 10 ],
                      [ &Elderberry, 10 ],
                      [ &Torch, 8 ],
                      [ &EntrootBerry, 5 ],
                      [ &Mace, 5 ],
                      [ &Shortsword, 5 ],
-                     [ &Longsword, 4],
-                     [ &OrcTooth, 3],
-                     [ &MetalShield, 3] ];
+                     [ &Longsword, 4 ],
+                     [ &OrcTooth, 3 ],
+                     [ &MetalShield, 3 ]
+                   ];
 
       propagate;
    }
