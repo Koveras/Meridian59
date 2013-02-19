@@ -166,10 +166,10 @@ messages:
       % This is the number of days to wait for an attack, start small.
       piWaitTime = 2;
 
-	  % Number of minutes the whole attack lasts.
+      % Number of minutes the whole attack lasts.
       %  Divided into 1/3 time that node holders know, 2/3 time everyone knows.
       piAttackDuration = 60
-	  
+      
       if ptAttack <> $
       {
          DeleteTimer(ptAttack);
@@ -605,22 +605,22 @@ messages:
                }
                else
                {
-		            if rRoomName <> $
-	       	      {
-                     if bSevered
-                     {
-                        Send(oItem,@receivenestedmail,#from=NodeAttack_keeper,
-                        #dest_list=[oItem],
-                        #nest_list=[4,NodeAttack_severed_mail_rsc,4,
-                        rRoomName]);
-                     }
-                     else
-                     {
-                        Send(oItem,@receivenestedmail,#from=NodeAttack_keeper,
-                        #dest_list=[oItem],
-                        #nest_list=[4,NodeAttack_loss_mail_rsc,4,rRoomName]);
-                     }
-		            }
+                    if rRoomName <> $
+                    {
+                        if bSevered
+                        {
+                           Send(oItem,@receivenestedmail,#from=NodeAttack_keeper,
+                           #dest_list=[oItem],
+                           #nest_list=[4,NodeAttack_severed_mail_rsc,4,
+                           rRoomName]);
+                        }
+                        else
+                        {
+                           Send(oItem,@receivenestedmail,#from=NodeAttack_keeper,
+                           #dest_list=[oItem],
+                           #nest_list=[4,NodeAttack_loss_mail_rsc,4,rRoomName]);
+                        }
+                    }
                }
             }
          }
